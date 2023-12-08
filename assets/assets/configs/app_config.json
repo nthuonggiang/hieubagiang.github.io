@@ -1,0 +1,107 @@
+{
+  "languages": [
+    "vi",
+    "en"
+  ],
+  "parks": [
+    {
+      "id": 570,
+      "slug": "sun-world-fansipan",
+      "name": "Fansipan Legend",
+      "poi": "2022",
+      "placeMarker": {
+        "x": 31,
+        "y": 4,
+        "width": 40,
+        "height": 40
+      },
+      "authorization": "SunWorldFansipan",
+      "locationName": "lao_cai"
+    },
+    {
+      "id": 571,
+      "slug": "sun-world-ha-long",
+      "name": "Ha Long",
+      "poi": "589",
+      "placeMarker": {
+        "x": 164.13,
+        "y": 48,
+        "width": 31.66,
+        "height": 40
+      },
+      "authorization": "SunWorldHaLong",
+      "locationName": "quang_ninh"
+    },
+    {
+      "id": 1227,
+      "slug": "coffee_web-cat-ba",
+      "name": "Cat Ba",
+      "placeMarker": {
+        "x": 135,
+        "y": 63,
+        "width": 31.66,
+        "height": 40
+      },
+      "authorization": "SunWorldCatBa",
+      "locationName": "hai_phong"
+    },
+    {
+      "id": 567,
+      "slug": "asia-park",
+      "name": "Asia Park",
+      "placeMarker": {
+        "x": 197.53,
+        "y": 224,
+        "width": 33.37,
+        "height": 40
+      },
+      "authorization": "SunWorldAsiaPark",
+      "locationName": "da_nang"
+    },
+    {
+      "id": 414,
+      "slug": "bana-hills",
+      "name": "Ba Na Hills",
+      "poi": "2031",
+      "placeMarker": {
+        "x": 164,
+        "y": 222,
+        "width": 33.16,
+        "height": 40
+      },
+      "authorization": "SunWorldBaNaHill",
+      "locationName": "da_nang"
+    },
+    {
+      "id": 569,
+      "slug": "ba-den-mountain",
+      "name": "Ba Den Mountain",
+      "placeMarker": {
+        "x": 114,
+        "y": 388,
+        "width": 40,
+        "height": 40
+      },
+      "authorization": "SunWorldBaDen",
+      "locationName": "tay_ninh"
+    },
+    {
+      "id": 568,
+      "slug": "hon-thom-nature-park",
+      "name": "Hon Thom",
+      "poi": "2032",
+      "placeMarker": {
+        "x": 43,
+        "y": 430,
+        "width": 40,
+        "height": 40
+      },
+      "authorization": "SunWorldPhuQuoc",
+      "locationName": "phu_quoc"
+    }
+  ],
+  "zoneToSubVenue": {
+    "579": 590,
+    "580": 700
+  }
+}

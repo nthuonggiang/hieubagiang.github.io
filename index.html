@@ -1,13 +1,74 @@
-<!doctype html><html lang="en" class="has-aside-left has-aside-mobile-transition has-navbar-fixed-top"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/logo_cf.jpg"><title>My Caffe</title><meta name="description" content="My Caffe"><meta property="og:url" content="https://vikdiesel.github.io/admin-one-vue-bulma-dashboard/"><meta property="og:site_name" content="JustBoil.me"><meta property="og:title" content="My Coffee"><meta property="og:description" content="Admin One - Free Vue Bulma Buefy dashboard template"><meta property="og:image" content="https://static.justboil.me/templates/one/repo-bulma-vue.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1920"><meta property="og:image:height" content="960"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:title" content="My Coffee"><meta property="twitter:description" content="Admin One - Free Vue Bulma Buefy dashboard template"><meta property="twitter:image:src" content="https://static.justboil.me/templates/one/repo-bulma-vue.png"><meta property="twitter:image:width" content="1920"><meta property="twitter:image:height" content="960"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-130795909-1"></script><script>window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-130795909-1');</script><link rel="dns-prefetch" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"><script defer="defer" src="/js/chunk-vendors.3c8e24bb.js"></script><script defer="defer" src="/js/app.10f907d1.js"></script><link href="/css/app.95ee8f9a.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but admin-one-vue-bulma-dashboard doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>!function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '658339141622648');
-      fbq('track', 'PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=658339141622648&ev=PageView&noscript=1"/></noscript><link href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css" rel="stylesheet"></body></html>
+<!DOCTYPE html>
+<html oncontextmenu="event.preventDefault();">
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter Web project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="coffee_web">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>coffee_web</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="splash/style.css">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = "4028257393";
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+
+<body>
+  <span class="center">
+    <div><img src="splash/img/ic_logo.svg" style="vertical-align:middle;margin:36px 0px"/></div>
+   <center> <div class="loader"></div></center>
+  </span>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+  <script>
+  if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("/firebase-messaging-sw.js");
+      });
+    }
+    </script>
+
+</body>
+
+</html>
